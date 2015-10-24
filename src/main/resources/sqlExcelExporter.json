@@ -1,0 +1,26 @@
+{
+  "datasource": {
+    "className": "oracle.jdbc.driver.OracleDriver",
+    "jdbcUrl": "jdbc:oracle:thin:@//localhost:1521/orcl",
+    "username": "user",
+    "password": "password"
+  },
+  "workspace": [
+    {
+      "id": "1",
+      "worksheet": [
+        {
+          "id": "1",
+          "sqlQuery": "Select * from Person",
+          "workSheetName": "Person"
+        },
+        {
+          "id": "2",
+          "sqlQuery": "Select * from Stock",
+          "workSheetName": "Stock"
+        }
+      ],
+      "fileName": "C:/temp/workspace1.xls"
+    }
+  ]
+}
